@@ -1239,7 +1239,10 @@
       }
     },
     "main-cart-items": {
-      "name": "Mặt hàng"
+      "name": "Mặt hàng",
+      "settings": {
+        "discount": "Mã giảm giá"
+      }
     },
     "main-collection-banner": {
       "name": "Biểu ngữ bộ sưu tập",
