@@ -1241,7 +1241,9 @@
     "main-cart-items": {
       "name": "Mặt hàng",
       "settings": {
-        "discount": "Mã giảm giá"
+        "discount": {
+          "name": "Mã giảm giá"
+        }
       }
     },
     "main-collection-banner": {
