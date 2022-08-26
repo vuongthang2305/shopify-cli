@@ -5,6 +5,7 @@
       "blocks": {
         "9f710e57-e2b7-4713-be26-13014ba9ccb4": {
           "type": "discount",
+          "disabled": true,
           "settings": {
           }
         }
