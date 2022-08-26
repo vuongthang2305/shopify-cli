@@ -2,6 +2,16 @@
   "sections": {
     "cart-items": {
       "type": "main-cart-items",
+      "blocks": {
+        "ad2a7dd9-b902-4abe-9bd3-640a023c0a68": {
+          "type": "discount",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "ad2a7dd9-b902-4abe-9bd3-640a023c0a68"
+      ],
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -10,6 +20,11 @@
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
+        "promotion": {
+          "type": "promotion",
+          "settings": {
+          }
+        },
         "subtotal": {
           "type": "subtotal",
           "settings": {
@@ -17,11 +32,6 @@
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
-        },
-        "promotion": {
-          "type": "promotion",
           "settings": {
           }
         }
@@ -39,15 +49,22 @@
       "settings": {
         "title": "Featured collection",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 4,
         "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
