@@ -6,7 +6,6 @@
 <div class="page-width{% if cart == empty %} is-empty{% endif %}" id="main-cart-footer" data-id="{{ section.id }}">
   <div>
     <div class="cart__footer">
-      <h1>abc</h1>
       {%- if settings.show_cart_note -%}
         <cart-note class="cart__note field">
           <label for="Cart-note">{{ 'sections.cart.note' | t }}</label>
@@ -15,6 +14,8 @@
       {%- endif -%}
 
       <div class="cart__blocks">
+              <h1>abc</h1>
+
         {% for block in section.blocks %}
           {%- case block.type -%}
             {%- when '@app' -%}
@@ -105,6 +106,11 @@
   "name": "t:sections.main-cart-footer.name",
   "class": "cart__footer-wrapper",
   "blocks": [
+    {
+      "type": "promotion",
+      "name": "t:sections.main-cart-footer.blocks.promotion.name",
+      "limit": 1
+    },
     {
       "type": "subtotal",
       "name": "t:sections.main-cart-footer.blocks.subtotal.name",
