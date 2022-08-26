@@ -1240,7 +1240,7 @@
     },
     "main-cart-items": {
       "name": "Mặt hàng",
-      "settings": {
+      "blocks": {
         "discount": {
           "name": "Mã giảm giá"
         }
