@@ -19,9 +19,15 @@
           "type": "buttons",
           "settings": {
           }
+        },
+        "buttons": {
+          "type": "promotion",
+          "settings": {
+          }
         }
       },
       "block_order": [
+        "promotion",
         "subtotal",
         "buttons"
       ],
