@@ -57,13 +57,11 @@
                             <div class="totals">
                                 <h2 class="totals__subtotal"><b>Bạn có 1 ưu đãi ${discount_name}</b></h2>
                             </div>
-                            <div class="js-contents">
                                 <div class="totals">
                                     <h2 class="totals__subtotal">Khi áp dụng</h2>
                                     <p class="totals__subtotal-value">${discount_price.toLocaleString('vi-VN')} VND</p>
                                     <button id="apply_dicount" class="cart__checkout-button button"> Apply</button>
                                 </div>
-                            </div>
                         {%- else -%}
                             <div class="cart__ctas" {{ block.shopify_attributes }}>
                                 <noscript>
